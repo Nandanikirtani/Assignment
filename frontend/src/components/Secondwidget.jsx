@@ -23,7 +23,7 @@ export default function GalleryWidget() {
   };
 
   return (
-    <div className="bg-[#373E44] w-[720px] rounded-2xl p-6 max-w-3xl relative shadow-lg flex flex-col gap-4 overflow-hidden">
+    <div className="bg-[#373E44] w-[670px] rounded-2xl p-6 max-w-3xl relative shadow-lg flex flex-col gap-4 overflow-hidden">
       <div className="flex justify-between items-center">
         <div className="flex gap-4">
           <div className="items-start left-4 group z-10">
