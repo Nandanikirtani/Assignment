@@ -7,7 +7,7 @@ export default function ProfileTabs() {
   const [activeTab, setActiveTab] = useState("About Me");
 
   return (
-    <div className="relative bg-[#373E44] w-[670px] rounded-3xl shadow-lg p-6 flex flex-col gap-6">
+    <div className="relative bg-[#373E44] max-h-72 w-[650px] rounded-3xl shadow-lg p-6 flex flex-col gap-6">
       
       <div className="absolute top-4 left-4 group z-10">
         <HelpCircle className="w-8 h-8 text-[#969696]" />
